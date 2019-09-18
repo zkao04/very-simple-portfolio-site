@@ -4,11 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <!-- Local link to Superslides -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/superslides.css">
-    <!-- Bootstrap stylesheet linked here -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- CSS stylesheet-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/style.css">
 
     <!-- jQuery linked here -->
@@ -16,11 +17,9 @@
   </head>
 
   <body>
-    <!-- Mark up is copied and pasted here from Superslides Github -->
+    <!-- The slides section, mark up is copied and pasted here from Superslides Github -->
     <div id="slides">
-
       <div class="overlay"></div>
-
       <div class="slides-container">
         <img src="img/landing4.jpg" alt="">
         <img src="img/landing1.jpg" alt="">
@@ -29,24 +28,86 @@
       <div class="titleMessage">
         <div class="heading">
           <p class="main">Hines Kao</p>
-          <p class="sub">Web Developer</p>
+          <p class="sub typed"></p>
         </div>
       </div>
-
       <nav class="slides-navigation">
         <a href="#" class="next"></a>
         <a href="#" class="prev"></a>
       </nav>
+    </div>
 
+    <!-- The About Me section -->
+    <div id="about" class="section">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <img class="aboutImage" src="img/about.png" alt="">
+          </div>
+
+          <div class="col-md-7">
+            <h4>My name is Mark</h4>
+            <p>I am an Operations Manager looking to develop a career as
+              a Full Stack Web Developer.  While managing three stores in
+              the Los Angeles Area, I constantly had to solve issues from
+              multiple fronts, most of them related to technology.  For
+              instance, setting up merchandises in point of sales system,
+              managing employee timesheets so everyone's hours are accurately
+              reflected, and dealing with truncated 0s in front of product
+              SKU, so they can be scanned.  With sheer determination, patience,
+              and persistent, I was able to identify the causes for many of
+              these issues and break them down into smaller pieces, and come
+              up with permanent solutions to prevent them from occurring again.</p>
+
+            <p>This characteristic has transferred well into Web Developing.
+              As a self-taught developer who must actively seek time for coding
+              activity in nights and weekends, I’ve realized that coding is a
+              task that requires intense mental focus, problem solving skills,
+              and the ability to prioritize task(s).  Fortunately, I have
+              developed these skills in my current experiences and have made
+              it a passion to apply these skills in building something on the
+              web that will be beneficial for the society. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills section -->
+    <div id="skills" class="skillsSection section">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in each skill</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+              <div class="skill">
+                <span class="chart" data-percent="44">
+                  <span class="percent">44</span>
+                  <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>PHP</h4>
+                <p>Used primarily with wordpress</p>
+              </div>
+          </div>
+
+        </div>
+      </div>
     </div>
 
 
 
 
-    <script src="js/jquery.superslides.min.js">
 
-    </script>
-    <!-- Popper and Bootstrap script applied here-->
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/typed.min.js">
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
